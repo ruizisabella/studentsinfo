@@ -8,7 +8,7 @@ function StudentInfo() {
 
   const handleSearch = async () => {
     try {
-      const response = await fetch(`${process.env.PUBLIC_URL}/data/${studentCode}/info.json`);
+      const response = await fetch(`/data/${studentCode}/info.json`);
       if (!response.ok) {
         throw new Error('Student not found');
       }
