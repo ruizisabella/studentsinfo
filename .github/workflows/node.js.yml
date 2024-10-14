@@ -6,8 +6,8 @@ on:
       - master
 
 permissions:
+  pages: write
   id-token: write
-  contents: write
 
 jobs:
   build:
@@ -20,7 +20,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '16'  # Cambia según la versión que uses
+          node-version: '16'
 
       - name: Install dependencies
         run: npm install
@@ -28,18 +28,17 @@ jobs:
       - name: Build the Vite app
         run: npm run build
 
-      - name: Upload artifact
-        uses: actions/upload-artifact@v3
+      - name: Upload artifact to GitHub Pages
+        uses: actions/upload-pages-artifact@v1
         with:
-          name: github-pages  # Nombre del artefacto
-          path: ./dist        # Ruta de salida del build de Vite
+          path: ./dist
 
   deploy:
     needs: build
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
     steps:
       - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+        uses: actions/deploy-pages@v1
 
