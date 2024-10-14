@@ -8,7 +8,7 @@ function StudentInfo() {
 
   const handleSearch = async () => {
     try {
-      const response = await fetch(`/data/${studentCode}/info.json`);
+      const response = await fetch(`${process.env.PUBLIC_URL}/data/${studentCode}/info.json`);
       if (!response.ok) {
         throw new Error('Student not found');
       }
@@ -28,10 +28,10 @@ function StudentInfo() {
         <Col md={6}>
           <Form>
             <Form.Group controlId="studentCode">
-              <Form.Label>Código del Estudiante</Form.Label>
+              <Form.Label>Código del Estudiante </Form.Label>
               <Form.Control
                 type="text"
-                placeholder="Ingrese el código del estudiante"
+                placeholder="Ingrese el código del estudiante PILO"
                 value={studentCode}
                 onChange={(e) => setStudentCode(e.target.value)}
               />
