@@ -28,10 +28,10 @@ function StudentInfo() {
         <Col md={6}>
           <Form>
             <Form.Group controlId="studentCode">
-              <Form.Label>Código del Estudiante </Form.Label>
+              <Form.Label>Código del Estudiante PILO</Form.Label>
               <Form.Control
                 type="text"
-                placeholder="Ingrese el código del estudiante PILO"
+                placeholder="Ingrese el código del estudiante"
                 value={studentCode}
                 onChange={(e) => setStudentCode(e.target.value)}
               />
