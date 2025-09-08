@@ -3,7 +3,7 @@
     "edad": 22,
     "carrera": "Ingeniería de Sistemas",
     "semestre": 6,
-    "gustos": ["Ufc", "Anime", "Comer"],
+    "gustos": ["UFC", "Anime", "Comer"],
     "noGustos": ["Drake", "Cardio", "Tareas largas"],
     "foto": "https://www.univalle.edu.co/media/k2/items/cache/9845d3c220e6e5674241ce626189d694_M.jpg"
 }
