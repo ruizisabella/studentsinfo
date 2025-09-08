@@ -1,0 +1,8 @@
+{
+    "nombre": "Jhorman Gomez",
+    "edad": 19,
+    "carrera": "Ing. Sistemas",
+    "semestre": 6,
+    "gustos": ["Lectura", "Videojuegos"],
+    "noGustos": ["Despertarse temprano", "Proyecto Integrador I"],
+    "foto": "https://drive.google.com/file/d/1-qxMcpmor0xD85y7orQ5spr3wo_1OBgp/view?usp=drive_link"
