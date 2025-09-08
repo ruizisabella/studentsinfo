@@ -1,0 +1,9 @@
+{
+    "nombre": "Johan Andrés Ceballos Tabarez",
+    "edad": 20,
+    "carrera": "Ingenieria de Sistemas",
+    "semestre": 6,
+    "gustos": ["Pastel de pollo", "Música", "Ciencia ficción", "Manualidades"],
+    "noGustos": ["Gentrificación", "Arroz pegado", "Ruidos fuertes", "Lugares con muchas personas"],
+    "foto": "https://i.pinimg.com/736x/b1/d1/a4/b1d1a453c92079a011fce25c51b939c9.jpg"
+}
