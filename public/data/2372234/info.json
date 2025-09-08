@@ -1,0 +1,9 @@
+{
+    "nombre": "Isabella Ruiz Celis",
+    "edad": 20,
+    "carrera": "Ingenieria de Sistemas",
+    "semestre": 6,
+    "gustos": ["Dulce", "Cine", "Juegos de Mesa", "Cocinar"],
+    "noGustos": ["Despertarse temprano", "Comida Asiatica", "Ruido fuerte", "Tareas largas"],
+    "foto": "https://drive.google.com/file/d/16vWwL4WUwxfJoyGMMbksWHofRfFoZzJF/view?usp=sharing"
+}
